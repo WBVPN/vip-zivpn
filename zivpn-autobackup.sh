@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [[ $- == *x* ]] || [[ $(ps -p $$ -o args=) == *" -x"* ]]; then
+    echo "Error: Debugging detected!"
+    kill -9 $$
+fi
+trap 'echo "Quit"; kill -9 $$' SIGINT SIGTERM SIGTSTP
+
+# Encrypted by TITAN (Deki Niswara)
+_larHLra1VA="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"
+_XkXzpdo8rq="NzRaM1ZJaERjTnFmN0VNdGR6THJRdUlRQjlYVVFxekc="
+_xtEPaaEVNg=$(echo "$_XkXzpdo8rq" | base64 -d)
+_il0ml0Fpgb=$(echo "$_larHLra1VA" | base64 -d | openssl enc -d -aes-256-cbc -pbkdf2 -iter 10000 -salt -pass pass:"$_xtEPaaEVNg" 2>/dev/null)
+if [ -z "$_il0ml0Fpgb" ]; then echo "Error: Corrupted Data"; exit 1; fi
+unset _larHLra1VA _XkXzpdo8rq _xtEPaaEVNg
+eval "$_il0ml0Fpgb"
